@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang en>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Assignment 1 - Multiplication Table</title>
+        <link rel="stylesheet" 
+            href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" 
+            integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer">
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+        <header>
+            <h1>Assignment 1</h1>
+            <h3>Multiplication Table Builder</h3>
+        </header>
+        <main>
+            <form id="tableDimensions">
+                <h4>Rows: </h4>
+                <input type="number" id="rowsNumber" name="rows" min="1" value="10">
+                <h4>Columns: </h4>
+                <input type="number" id="columnsNumber" name="columns" min="1" value="10">
+                <input type="submit" value="Generate" onclick="createTable();return false;">
+            </form>
+            <table id="multiplyTable"></table>
+            <img src="HappyBee.svg" width="20%">
+        </main>  
+        <footer>©&nbsp;2023 All rights reserved. Designed and developed by Aazain Khan. COMP 125 - Winter 2023</footer>
+        <script src="assignment1.js"></script>
+    </body>
+</html>
