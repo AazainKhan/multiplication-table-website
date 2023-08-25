@@ -1,7 +1,7 @@
 # multiplication-table-website
 COMP 125 - Assignment 1 - Winter 2023
 
-[Multiplication table](URL)
+[Multiplication table](https://aazainkhan.github.io/multiplication-table-website/)
 
 Using JS to navigate the HTML DOM elements.
 
